@@ -2,12 +2,14 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+General behavioral rules live in the user-global `~/.claude/CLAUDE.md`. This file is for things only this repo's maintainer knows.
+
 ## Repository Status
 
-This is a newly initialized, empty repository (`cuptan/cuptan`). No source code, tooling, or project structure has been committed yet.
+Newly initialized, empty repository (`cuptan/cuptan`). No source code, tooling, or project structure committed yet.
 
-When the project is bootstrapped, update this file with:
+## To be filled in once code lands
 
-- **Build / lint / test commands** — the exact CLI invocations needed to develop locally, including how to run a single test file or a single test case.
-- **Architecture overview** — the high-level structure of the codebase (entry points, major modules, data flow) that would take reading multiple files to understand.
-- **Key conventions** — naming patterns, branching strategy, PR/commit conventions, or anything project-specific that is not obvious from the code alone.
+- **Build / lint / test commands** — exact CLI invocations to develop locally, including how to run a single test.
+- **Architecture overview** — entry points, major modules, data flow that would take reading multiple files to understand.
+- **Project-specific gotchas** — load-bearing code that looks abstract, broken scripts with workarounds, branching strategy, anything non-obvious from reading the code.
